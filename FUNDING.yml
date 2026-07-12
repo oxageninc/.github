@@ -1,0 +1,3 @@
+# Org-wide default Sponsor button. Any repo in this org without its own
+# .github/FUNDING.yml inherits this and shows a "Sponsor" button linking here.
+github: [macanderson]
