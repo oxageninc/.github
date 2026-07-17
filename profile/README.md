@@ -6,7 +6,7 @@
   <img alt="Oxagen" src="./assets/hero-light.png" width="820">
 </picture>
 
-<h3>The infrastructure layer for AI agents</h3>
+<h3>Ground, Govern, Observe, and Meter AI Agents</h3>
 
 <p><strong>You build the agent. Oxagen runs the plumbing.</strong></p>
 
@@ -36,48 +36,12 @@ Same power in the REST API, the MCP server, the web app, and the CLI. One capabi
 
 ---
 
-## Open source
+## Open source sponsor
 
-We build in the open. These are the tools we use to keep agents fast, honest, and measurable. Use them, fork them, send patches.
+We are excited to sponsor @macanderson. We are most excited about: [Stella](https://github.com/macanderson/stella) AI agent coding and [Arena](https://github.com/macanderson/arena) a platform that benchmarks AI agent coding tools.
 
-### Stella &nbsp;·&nbsp; a terminal coding agent, in Rust
+You can become a sponsor too!
 
-<p>
-  <a href="https://github.com/oxageninc/stella"><img alt="Stars" src="https://img.shields.io/github/stars/oxageninc/stella?style=flat-square&label=stars&labelColor=16181D&color=FF7E5F"></a>
-  <img alt="Rust" src="https://img.shields.io/badge/Rust-16181D?style=flat-square&logo=rust&logoColor=FF7E5F">
-  <a href="https://github.com/oxageninc/stella/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/oxageninc/stella?style=flat-square&label=license&labelColor=16181D&color=6E48CE"></a>
-</p>
-
-A fast, BYOK, model-agnostic coding agent for your terminal. Parallel tools, judged goals, and witness-verified "done", with local-first telemetry. Bring your own key and point it at any model.
-
-```bash
-brew install oxageninc/stella/stella
-```
-
-<a href="https://github.com/oxageninc/stella">Repository</a> &nbsp;·&nbsp; <a href="https://docs.oxagen.sh/stella">Docs</a>
-
-### Arena &nbsp;·&nbsp; benchmark your agent against the best
-
-<p>
-  <a href="https://github.com/oxageninc/arena"><img alt="Stars" src="https://img.shields.io/github/stars/oxageninc/arena?style=flat-square&label=stars&labelColor=16181D&color=FF7E5F"></a>
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-16181D?style=flat-square&logo=typescript&logoColor=6E48CE">
-  <a href="https://github.com/oxageninc/arena/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/oxageninc/arena?style=flat-square&label=license&labelColor=16181D&color=6E48CE"></a>
-</p>
-
-Wire up a Harbor benchmark adapter and run your coding agent side-by-side with Claude Code, Gemini, and other top agents. Regression checks keep your agent improving instead of drifting or degrading, and the scoring is fair, unbiased, and reproducible.
-
-<a href="https://github.com/oxageninc/arena">Repository</a>
-
-### More in the open
-
-- **[homebrew-stella](https://github.com/oxageninc/homebrew-stella)** &nbsp;·&nbsp; the Homebrew tap for Stella. `brew install oxageninc/stella/stella`.
-- **[oxagen.sh](https://github.com/oxageninc/oxagen.sh)** &nbsp;·&nbsp; open business documents and templates.
-
----
-
-## Sponsor the work
-
-Stella and Arena are built and maintained by **[Mac Anderson](https://github.com/macanderson)**. If they save you time, or you want to see them get better faster, sponsorship funds the work directly. No hype, just more shipped.
 
 <p>
   <a href="https://github.com/sponsors/macanderson"><img alt="Sponsor Mac Anderson" src="https://img.shields.io/badge/Sponsor%20Mac%20Anderson-C2185B?style=for-the-badge&logo=githubsponsors&logoColor=white&labelColor=16181D"></a>
