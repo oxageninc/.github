@@ -1,7 +1,10 @@
 name: Task
 description: A unit of work with an explicit definition of done
-labels: ["triage"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        File the issue complete. Since 2026-10-02 a new issue in an Oxagen organization carries no `TRIAGE` label. Title it `<Priority> <Tier> <Size> <Kind> (<Area>): <Statement>`, apply one priority, `MODEL:`, `SIZE:`, `KIND:`, and `AREA:` label, set the issue type to the kind, and fill the Priority, Model Tier, Estimated Minutes, and Area(s) fields. The reference is `issue-management.html` in oxageninc/roadmap.
   - type: textarea
     id: context
     attributes: { label: Context, description: Why this exists; link the origin task. }
@@ -16,5 +19,5 @@ body:
         - [ ] Scoped tests added/updated and passing
         - [ ] Full CI green
         - [ ] Code comments and docs updated
-        - [ ] Residue filed as new issues (triage label only)
+        - [ ] Residue filed as complete issues, with labels, issue type, and fields
     validations: { required: true }
