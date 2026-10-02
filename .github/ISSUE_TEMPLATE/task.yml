@@ -4,7 +4,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        File the issue complete. Since 2026-10-02 a new issue in an Oxagen organization carries no `TRIAGE` label. Title it `<Priority> <Tier> <Size> <Kind> (<Area>): <Statement>`, apply one priority, `MODEL:`, `SIZE:`, `KIND:`, and `AREA:` label, set the issue type to the kind, and fill the Priority, Model Tier, Minutes Estimated, and Area(s) fields. Apply `MIGRATION-REQUIRED` once you know the work changes a stored schema. The reference is `issue-management.html` in oxageninc/roadmap.
+        File the issue complete. Since 2026-10-02 a new issue in an Oxagen organization carries no `TRIAGE` label. Title it `<Priority> <Tier> <Size> <Kind> (<Domain>): <Statement>`, apply one priority, `MODEL:`, `SIZE:`, `KIND:`, and `DOMAIN:` label, set the issue type to the kind, and fill the Priority, Model Tier, Minutes Estimated, and Domains fields. Apply `MIGRATION-REQUIRED` once you know the work changes a stored schema. The reference is `issue-management.html` in oxageninc/roadmap.
   - type: textarea
     id: context
     attributes: { label: Context, description: Why this exists; link the origin task. }
