@@ -1,0 +1,34 @@
+# Unit tests for the DoD scripts in tools/scripts.
+#
+# Every repository that calls dod-check.yml, dod-close-guard.yml, or
+# dod-recheck.yml runs these scripts, so a change to them is tested here
+# before any caller re-pins.
+name: test
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: test-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+
+      - run: npm ci
+
+      - run: npm test
